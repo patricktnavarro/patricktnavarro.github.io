@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+figure {
+  background-color: black;
+  width: 40%;
+  text-align: center;
+  padding: 15px 15px 10px 10px;
+  border: 1px solid white;
+  float: left;
+  margin: 20px;
+}
+
+Figure img {
+  width: 100%;
+}
+
+figcaption {
+  color: white;
+  font-family: Arial, sans-serif;
+}
