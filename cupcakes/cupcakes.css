@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#wrap {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: turquoise;
+  padding: 40px;
+  text-align: center;
+  color: white;
+}
+
+nav {
+  background-color: turquoise;
+  padding: 19px;
+  text-align: center;
+  border-style: solid;
+}
+
+nav li {
+  display: inline;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+}
+
+nav a:hover {
+  background-color: aqua;
+}
+
+section {
+  background-color: pink;
+  overflow: auto;
+}
+
+aside {
+  width: 28%;
+  float:left;
+  /*padding: 4%;*/
+}
+
+aside li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+aside ul {
+  margin: 0;
+  padding: 0;
+}
+
+aside a {
+  padding: 10px 0 10px 30px;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+
+aside a:hover {
+  background-color: lightyellow;
+  color: Black;
+}
+
+article {
+  width: 64%;
+  background-color: white;
+  float: right;
+  padding: 0 4% 2% 4%;
+}
+
+footer {
+  background-color: turquoise;
+  padding: 20px;
+  border-style: solid;
+}
+
+.buy {
+  width: 30%;
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
+@media only screen and (max-width:600px) {
+
+ body {
+   background-color: beige;
+ }
+
+ #wrap {
+   width: 100%;
+ }
+
+ nav {
+   padding:0;
+ }
+
+nav a {
+  display: block;
+  width: 100%;
+  padding: 20px 0;
+}
+
+nav li, nav ul {
+  margin:0;
+  padding:0;
+}
+
+aside, article {
+  width: 92%;
+  float:none;
+}
+
+aside a {
+  text-align: center;
+}
+
+aside ul {
+  margin:0;
+}
+
+article {
+  padding-top: 20px;
+}
+
+.bird {
+  width: 100%;
+  margin: 0px;
+  float: none;
+}
+
+}
+
+@media only screen and (min-width:601px) and (max-width:980px) {
+#wrap {
+  width: 85%;
+}
+
+nav li {
+  display: block;
+}
+.bird {
+  width: 50%;
+}
+}
