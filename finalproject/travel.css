@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url(florida.jpg);
+	background-color: #cccccc;
+	font-family: 'Lobster', cursive;
+}
+#wrap {
+	width: 75%;
+	margin: 0 auto;
+}
+article {
+	overflow: auto;
+}
+header {
+	clear: both;
+	text-align:center;
+}
+#logo {
+	padding: 10px;
+}
+nav {
+	padding: 10px;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+
+}
+nav li {
+	display: inline;
+	margin: 0 30px;
+}
+nav a {
+	color: black;
+	font-size:30px;
+	text-decoration:none;
+	font-weight: bold;
+		font-family:'Press Start 2P', cursive;
+}
+nav a:hover {
+	color: white;
+}
+section {
+	background-color:rgba(0,0,0,0.3);
+}
+.welcome {
+	padding: 10px 15px;
+	margin: 20px 0;
+	overflow: auto;
+}
+footer {
+	background-color: transparent;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	clear: both;
+}
+footer a {
+	color: #2eb82e;
+}
+section h1 {
+	font-size: 72px;
+	color: white;
+	font-family: georgia,serif;
+	margin: 0;
+}
+section h2 {
+	font-size: 25px;
+	color: indigo;
+	background-color: aqua;
+}
+
+figure {
+	width: 190px;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	border: 2px solid white;
+	float: left;
+	margin: 50px;
+}
+
+Figure img {
+	padding: 10px;
+  width: 90%;
+}
+
+figcaption {
+  color: white;
+  font-family: Arial, sans-serif;
+}

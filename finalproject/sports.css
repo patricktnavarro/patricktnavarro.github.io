@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url(pittsburgh.jpg);
+	background-color: #cccccc;
+	font-family: 'Lobster', cursive;
+}
+
+nav {
+  background-color: turquoise;
+  padding: 19px;
+  text-align: center;
+  }
+
+nav li {
+  display: inline;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+}
+
+nav a:hover {
+  background-color: gold;
+}
+
+header, nav, section, footer {
+  padding: 30px;
+  background-color: #fff;
+  margin: 40px 0;
+  overflow:auto;
+}
+
+header h1 {
+  font-size: 20px;
+}
+
+header div {
+  max-width: inherit;
+}
+#wrap {
+  width: 70%;
+  margin: 0 auto;
+}
+
+textarea {
+  width: 50%;
+  height: 100px;
+}
+
+fieldset {
+  background-color: #ddd;
+  border-radius: 1em;
+  }
+
+legend {
+  font-size: 150%;
+  font-family: Georgia, serif;
+  background-color: navy;
+  color: white;
+  padding: 5px 10px;
+}
+
+.button {
+  background-color: navy;
+  color: white;
+  font-size: 130%;
+}
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 90%; height: 90%; }
+
+.left {
+  float: left; width: 45%;
+
+}
+
+.right {
+  float: right; width: 45%;
+}
+
+@media only screen and (max-width:600px) {
+
+
+.left, .right {
+  float: none;
+  width: 100%;
+  margin: 15px 0;
+}
+}
